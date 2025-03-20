@@ -26,8 +26,8 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainModule = 'org.example.megachat5'
-    mainClass = 'org.example.megachat5.HelloApplication'
+    mainModule = 'org.example.megachat'
+    mainClass = 'org.example.megachat.HelloApplication'
 }
 
 javafx {
