@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'scala'
     id 'application'
     id 'org.javamodularity.moduleplugin' version '1.8.12'
     id 'org.openjfx.javafxplugin' version '0.0.13'
@@ -35,7 +36,7 @@ javafx {
 }
 
 dependencies {
-
+    implementation 'org.scala-lang:scala-library:2.13.12'
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 }
