@@ -1,4 +1,4 @@
-package org.example.megachat5;
+package org.example.megachat;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

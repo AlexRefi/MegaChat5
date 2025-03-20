@@ -1,4 +1,4 @@
-package org.example.megachat5;
+package org.example.megachat;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

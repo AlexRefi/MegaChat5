@@ -3,6 +3,6 @@ module org.example.megachat5 {
     requires javafx.fxml;
 
 
-    opens org.example.megachat5 to javafx.fxml;
-    exports org.example.megachat5;
+    opens org.example.megachat to javafx.fxml;
+    exports org.example.megachat;
 }
